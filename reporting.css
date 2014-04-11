@@ -1,0 +1,91 @@
+body {
+  margin:0px;
+  font-family: Verdana;
+}
+ul {list-style-type:none;width:100%;padding-left:10px;}
+ul li {
+  background-color: #ffffff;
+  float:left;
+  width:350px;
+  margin-bottom:20px;
+  margin-right:20px;
+  border:solid 1px #EDF1FC;
+  border-radius: 6px;
+  overflow:hidden;
+}
+.icon {width:24px;}
+.title_line{
+  width:336px;
+  height:28px;
+  padding:2px 7px;
+  background-color:#EDF1FC;
+}
+.report_name {
+  font-size:10pt;
+  font-weight:bold;
+  line-height: 28px;
+  float:left;
+
+  width:225px;
+  text-overflow:ellipsis;
+  overflow:hidden;
+  white-space:nowrap;
+}
+.report_name:hover {
+  cursor:move;
+}
+.report_formats {float:right;}
+.report_description{
+  font-size:8pt;
+  width:100%;
+  height:305px;
+  padding:6px;
+  clear:both;
+}
+.header {
+  width:100%;
+  height:45px;
+  overflow:hidden;
+  padding:15px 0px;
+  border-top:solid 1px #ccc;
+  border-bottom:solid 1px #ccc;
+  box-shadow: 1px 4px 8px rgba(0,0,0,.4);
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
+.header .logo {
+  float:right;
+  margin-right:25px;
+}
+.header .logo img {
+  height:45px;
+}
+.header .title {
+  float:left;
+  font-weight:bold;
+  font-size:24pt;
+  line-height: 45px;
+  margin-left:20px;
+}
+.header .beta {
+  font-size: 12pt;
+  font-style:italic;
+  color: #C9C9C9;
+}
+
+.notifications {height:305px;margin-top:10px;overflow:scroll;}
+.notifications ol {padding-left:10px;padding-right:10px;}
+.notifications .notification {border:none;font-size:8pt;width:100%;}
+.notifications .notification .date {font-size:6pt;color:#c9c9c9;}
+
+.nochart {
+  border:solid 1px #C9C9C9;
+  margin:15px;
+  width:305px;
+  height:125px;
+  padding-top:125px;
+  font-size:16pt;
+  text-align:center;
+  color:#C9C9C9;
+}
